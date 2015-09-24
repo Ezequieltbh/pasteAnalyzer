@@ -1,0 +1,11 @@
+#Email
+([\s\|,;’]+[a-z0-9\-\._]+@[a-z0-9\-\.]+\.[a-z]{2,4})[\s\|,;:’]+
+#Password
+^\s*[pass|word|phrase|wd|code]*\s*[:|=|is|was](\s*[a-z0-9\-_\!]+$)
+#User:Password 
+[ht|f]tp[s]*:\/\/(\w+\:.*)\@\w*\.\w*
+#Secret Variable
+\s*[a-z0-9\-_]*[S|s]ecret[k|K]ey+\s*[:=]+\s*["'](\S+)["']
+
+
+
