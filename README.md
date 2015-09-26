@@ -11,7 +11,9 @@ google-api-python-client ( https://github.com/google/google-api-python-client )
 
 3. ./regex is a example of regular expressions file, format is first line category started with #, second line regular expression ... and repeat ... and repeat.
 
-4. JSON output file format:   
+4. Regular expressions ONLY allow ONE group of capture, is REQUIRED. ()
+
+5. JSON output file format:   
 [   
 	  u'http://pastebin.com/AB51SAQS2',   
 	  [ 'Email',[ 'email@email.com','myemail@domain.com' ] ],   
@@ -47,8 +49,11 @@ google-api-python-client ( https://github.com/google/google-api-python-client )
  					   Verbose mode
 
  
+#Faraday Plugin
+The plugin add a new host "pasteAnalyzer", a new interface "Results" and a new Service "Web".
+In this service all results of pasteAnalyzer are loaded.
 
-
-
-
+Install is simple, copy the faradayPlugin folder of this repository to {FARADAY_INSTALL_DIR}/plugins/repo/
+Rename "faradayPlugin" to parseAnalyzer.
+Ready!
 
