@@ -1,6 +1,8 @@
 # pasteAnalyzer
 Search in Google custom engine for a keyword in the text and analyze this for match with regular expressions.   
-Support: github.com, gist.github.com, pastebin.com, pastee.org, and pastie.org.
+
+Sites that get contents "raw" for processing: github.com, gist.github.com, pastebin.com, pastee.org, and pastie.org.
+All sites are supported, but the HTML is processed completely in search of a match with regular expressions.
 
 #Dependencies (Python 2.7)
 google-api-python-client ( https://github.com/google/google-api-python-client )
