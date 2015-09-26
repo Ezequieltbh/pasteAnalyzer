@@ -53,7 +53,7 @@ google-api-python-client ( https://github.com/google/google-api-python-client )
 The plugin add a new host "pasteAnalyzer", a new interface "Results" and a new Service "Web".
 In this service all results of pasteAnalyzer are loaded.
 
-Install is simple, copy the faradayPlugin folder of this repository to {FARADAY_INSTALL_DIR}/plugins/repo/
+Install is simple, copy the faradayPlugin folder of this repository to {FARADAY_INSTALL_DIR}/plugins/repo/		
 Rename "faradayPlugin" to parseAnalyzer.
 Ready!
 
