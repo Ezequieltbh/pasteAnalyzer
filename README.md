@@ -56,6 +56,6 @@ The plugin add a new host "pasteAnalyzer", a new interface "Results" and a new S
 In this service all results of pasteAnalyzer are loaded.
 
 Install is simple, copy the faradayPlugin folder of this repository to {FARADAY_INSTALL_DIR}/plugins/repo/		
-Rename "faradayPlugin" to parseAnalyzer.
+Rename "faradayPlugin" to pasteAnalyzer.
 Ready!
 
