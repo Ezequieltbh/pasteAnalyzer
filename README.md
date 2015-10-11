@@ -17,16 +17,17 @@ google-api-python-client ( https://github.com/google/google-api-python-client )
 4. Regular expressions ONLY allow ONE group of capture, is REQUIRED. ()
 
 5. JSON output file format:   
+`
 [   
 	  u'http://pastebin.com/AB51SAQS2',   
 	  [ 'Email',[ 'email@email.com','myemail@domain.com' ] ],   
 	  u'htpp://pastee.org/jw5151a',   
 	  [ 'Password',[ 'Mypasswordis123', 'Mypass' ],'EMail',[ 'email@dom.com' ] ]    
 ]
-
+`
 #Command Example
 
-./pasteAnalyzer.py -q CTF -a AIYLZ-fX33rwmo -e 016273:o_yf_nza -r regex -j JSON -v
+`./pasteAnalyzer.py -q CTF -a AIYLZ-fX33rwmo -e 016273:o_yf_nza -r regex -j JSON -v`
 
 #Arguments
 
